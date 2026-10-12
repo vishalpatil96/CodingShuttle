@@ -10,7 +10,7 @@ public class WelcomeController {
     public String welcome()
     {
         System.out.println("Hey bro!!");
-        return "Welcome to Springboot world";
+        return "I found something";
 
     }
 }
