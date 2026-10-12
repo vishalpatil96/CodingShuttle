@@ -9,6 +9,7 @@ public class WelcomeController {
     @GetMapping("/welcome")
     public String welcome()
     {
+        System.out.println("Hey bro!!");
         return "Welcome to Springboot world";
 
     }
